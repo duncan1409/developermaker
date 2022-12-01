@@ -7,10 +7,10 @@ import lombok.Getter;
 @Getter
 
 public enum DeveloperLevel {
-    NEW(description:"신입 개발자"),
-    JUNIOR(description:"주니어 개발자"),
-    JUNGNIOR(description:"중간 개발자"),
-    SENIOR(description:"시니어 개발자");
+    NEW("신입 개발자"),
+    JUNIOR("주니어 개발자"),
+    JUNGNIOR("중간 개발자"),
+    SENIOR("시니어 개발자");
 
     private final String description;
 }

@@ -7,7 +7,10 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@
+/*@NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@EntityListners
+@EntityListners*/
 public class Developer {
 }
